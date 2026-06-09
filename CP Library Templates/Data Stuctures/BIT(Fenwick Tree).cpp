@@ -6,8 +6,7 @@ template <class T>
 struct BIT{
     vector<T> f;
     int n;
-    BIT(int size) {
-        n = size;
+    BIT(int size) : n(size) {
         f.resize(n + 1);
     }
 
